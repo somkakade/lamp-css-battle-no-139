@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #e38f66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+}
+.bulb {
+  width: 140px;
+  border-bottom: 115px solid #fffbda;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+.lamp-strip {
+  width: 10px;
+  height: 125px;
+  background-color: #62306d;
+  position: absolute;
+  left: 47%;
+  border-radius: 0 0 10px 10px;
+}
